@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1876502400
+              "duration": 4623166200
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 216331900
+              "duration": 123461599
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 366391099
+              "duration": 365418500
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3263390099
+              "duration": 2254434999
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 296700100
+              "duration": 327742800
             }
           },
           {
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 151233200
+              "duration": 146166999
             }
           },
           {
@@ -97,7 +97,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 723882999
+              "duration": 736410900
             }
           },
           {
@@ -110,7 +110,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 60005955100,
+              "duration": 60021726099,
               "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (D:\\Batch2Devlabs\\playwright-cucumber\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
             }
           }

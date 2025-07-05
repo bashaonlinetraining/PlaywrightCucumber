@@ -9,10 +9,14 @@
   "devDependencies": {
     "@cucumber/cucumber": "^11.3.0",
     "@playwright/test": "^1.53.2",
-    "@types/node": "^24.0.8"
+    "@types/node": "^24.0.8",
+    "cucumber-html-reporter": "^6.0.0"
   },
   "type": "module",
   "dependencies": {
     "dotenv": "^17.0.1"
+  },
+  "scripts": {
+    "test": "npx cucumber-js --format html:test-results/report.html"
   }
 }
