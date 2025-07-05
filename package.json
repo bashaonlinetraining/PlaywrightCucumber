@@ -17,6 +17,7 @@
     "dotenv": "^17.0.1"
   },
   "scripts": {
-    "test": "npx cucumber-js --format html:test-results/report.html"
+    "test": "npx cucumber-js",
+    "report": "node generate-report.js"
   }
 }

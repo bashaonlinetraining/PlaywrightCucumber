@@ -21,21 +21,7 @@
         },
 
         "format": [
-
-            [
-
-                "html",
-
-                "cucumber-report.html"
-
-            ],
-
-            "summary",
-
-            "progress-bar",
-
-            "json:./cucumber-report.json"
-
+            "json:cucumber-report.json"
         ]
 
     }
