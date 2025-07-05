@@ -1,0 +1,134 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "contact;user-sends-a-contact-message-after-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User sends a contact message after login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\LoginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1876502400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters a valid username and password",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\LoginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216331900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks the login button",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\LoginSteps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 366391099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user should be redirected to the dashboard",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\LoginSteps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3263390099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user opens the contact form",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\ContactSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296700100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "fills the contact form with \"test@email.com\", \"Test User\", and \"This is a test message\"",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\ContactSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151233200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "submits the contact form",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\ContactSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 723882999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the contact form should be sent successfully",
+            "match": {
+              "location": "file:\\D:\\Batch2Devlabs\\playwright-cucumber\\tests\\steps\\ContactSteps.js:20"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 60005955100,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout.<anonymous> (D:\\Batch2Devlabs\\playwright-cucumber\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ContactScenario1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "contact",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Contact",
+    "tags": [],
+    "uri": "tests\\features\\Contact.feature"
+  }
+]
